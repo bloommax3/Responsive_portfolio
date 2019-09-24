@@ -215,3 +215,65 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+@media screen and (max-width: 980px){
+  .container{
+    float: left;
+    margin-left: 30px;
+    width: 686px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .work{
+    width: 225px;
+    margin: 10px 0 15px;
+  }
+  .container{
+    width: 565px;
+  }
+  #logo{
+    font-size: 25px;
+    width: 200px;
+    height: 80px;
+    box-align: center;
+  }
+  #nav{
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 640px){
+  
+  .container{
+    clear: both;
+    width: 50%;
+    margin-left: 25%;  
+  }
+
+  #logo{
+    box-align: center;
+    width: 50%;
+    margin-left: 25%;
+    overflow: auto;
+    z-index: 100;
+  
+  }
+
+  nav{
+    clear: both;
+    font-size: 10px;
+    float: left;
+  
+  }
+
+  #masthead{
+    width: 50%;
+    margin-left: 25%;
+  }
+
+
+
+}
+/* I can't figure out how to get the heading to work for 640px */
+
