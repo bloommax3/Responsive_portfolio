@@ -16,3 +16,20 @@ $("#trainSheet").on("click", function(){
 $("#triviaGame").on("click", function(){
     window.location.href = "https://bloommax3.github.io/TriviaGame/"
 })
+$("#bamazon").on("click", function(){
+    window.location.href = "https://github.com/bloommax3/bamazon/"
+})
+$("#liriBot").on("click", function(){
+    window.location.href = "https://github.com/bloommax3/LIRIbot"
+})
+$("#friendFinder").on("click", function(){
+    window.location.href = "https://ancient-reef-30341.herokuapp.com"
+})
+$("#burger").on("click", function(){
+    window.location.href = "https://dry-ravine-87820.herokuapp.com"
+})
+$("#snobTalk").on("click", function(){
+    window.location.href = "https://glacial-eyrie-57579.herokuapp.com"
+})
+
+
